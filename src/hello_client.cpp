@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
 
     char message[30];
     int strlen;
-    if(argc)
+    if(argc != 3)
     {
         printf("Usage: %s <IP> <port>\n", argv[0]);
         exit(1);
